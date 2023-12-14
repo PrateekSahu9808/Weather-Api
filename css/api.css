@@ -1,0 +1,67 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.body{
+background-image: url(/img/katja-stehle-mF7iMt3P9MM-unsplash.jpg);
+background-size: cover;
+ 
+}
+.mainContainer{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.wheatherElement{
+    height:400px;
+    width: 600px;
+    border:1px solid #d1c6c6 ;
+    border-radius: 5px ;
+        box-shadow: 1px 1px 4px 1px #eee;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+position: absolute;
+  /* background-color: #f1d2d2; */
+}
+.inputCity input{
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid #d1c6c6 ;
+  border-radius: 5px;
+  background-color: rgb(214,217,222);
+}
+
+
+
+input:hover{
+    border: 1px solid rgb(122, 112, 112) 
+}
+.showData{
+    height: 320px;
+    width: 580px;
+    /* border: 1px solid #d1c6c6; */
+    position: relative;
+     top: 30px;
+   
+     
+}
+.items{
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+}
